@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+body{
+    background-color: rgb(71, 71, 71);
+}
+
+input{
+    outline: none;
+    padding: 4px;
+    background-color: transparent;
+    border: 0;
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#pmHandler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: rgb(61, 61, 61);
+    border-radius: 20px;
+}
+
+.pm{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 85%;
+    background-color: #2e2e2e;
+}
+
+.username{
+    float: left;
+    margin-right: 10px;
+}
+
+.text{
+    float: left;
+    word-wrap: break-word;
+    display: contents;
+}
+
+.green{
+    border: 2px solid #00ff00;
+}
+
+.red{
+    border: 2px solid #ff0000;
+}
+
+.shadow{
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#getChannelName{
+    border: 2px solid red;
+}
